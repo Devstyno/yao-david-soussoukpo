@@ -11732,3 +11732,22 @@ html {
     left: -2vw;
   }
 }
+
+/*  */
+
+/* Ajout dans css/styles.css */
+.w-lg-40 {
+    width: 40%;
+}
+@media (max-width: 991px) {
+    .w-lg-40 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+    min-height: 220px;
+    background: #f8f9fa;
+}
